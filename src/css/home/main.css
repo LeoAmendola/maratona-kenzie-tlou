@@ -1,0 +1,129 @@
+.home {
+  height: 870px;
+  background-image: url("../../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: top right;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+main > p {
+  text-align: left;
+  max-width: 30ch;
+}
+
+.btn-main {
+  display: flex;
+  gap: 27px;
+}
+div > button {
+  padding: 0 30px;
+  height: 46px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.activated {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+}
+
+.inactive {
+  background-color: var(--color-grey-1);
+  border: 1px solid var(--color-grey-1);
+}
+
+.activated:hover {
+  border: 1px solid var(--color-grey-2);
+  font-weight: 600;
+}
+
+.inactive:hover {
+  border: 1px solid var(--color-primary);
+  font-weight: 600;
+}
+
+main > section {
+  margin-top: 100px;
+  align-items: start;
+}
+
+main > section h3 {
+  text-transform: uppercase;
+}
+
+.inside {
+  max-width: 100%;
+  margin-right: auto;
+  width: 840px;
+  gap: 20px;
+}
+
+.inside > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 139px;
+  min-width: 261px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.inside > li:first-child {
+  background-image: url("../../img/inside/survival.svg");
+}
+.inside > li:nth-child(2) {
+  background-image: url("../../img/inside/relationship.svg");
+}
+.inside > li:last-child {
+  background-image: url("../../img/inside/adventure.svg");
+}
+
+@media (max-width: 768px) {
+  .home {
+    background-position: left;
+  }
+  main {
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  main > section {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .inside {
+    margin-bottom: 120px;
+    overflow-x: auto;
+  }
+  main > p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home {
+    height: fit-content;
+  }
+  main {
+    margin-bottom: 0;
+  }
+  .btn-main {
+    display: flex;
+    flex-direction: column;
+  }
+  main button {
+    min-width: max-content;
+  }
+  .inside {
+    margin-bottom: 60px;
+  }
+}

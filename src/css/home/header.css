@@ -1,0 +1,51 @@
+header {
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+
+header > figure > img {
+  width: 254px;
+  height: 144px;
+}
+header nav {
+  gap: 20px;
+  width: 70%;
+  margin-left: 120px;
+}
+header nav ul {
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+header nav ul li {
+  padding: 16px;
+}
+
+nav li a:hover {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-bottom: 40px;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav {
+    width: auto;
+    justify-items: center;
+    margin: 20px auto 0;
+    flex-wrap: wrap;
+  }
+
+  header nav ul {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 550px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}

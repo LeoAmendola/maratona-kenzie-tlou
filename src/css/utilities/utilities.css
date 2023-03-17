@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  width: 78vw;
+  height: 100%;
+}
+.flex,
+.flex-none{
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+.selected {
+  color: var(--color-grey-2);
+}
+

@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #ce3029;
+  --color-secondary: #8e0000;
+  --color-grey-1: #474747;
+  --color-grey-2: #ffffff;
+  --color-grey-3: #000000;
+  --text-color-1: #c7c7c7;
+}
+
+.color-prim {
+  color: var(--color-primary);
+}
+.color-sec {
+  color: var(--color-secondary);
+}
+.color-g1 {
+  color: var(--color-grey-1);
+}
+.color-g2 {
+  color: var(--color-grey-2);
+}
+.color-g3 {
+  color: var(--color-grey-3);
+}
+.color-text,
+.color-text-op {
+  color: var(--text-color-1);
+}
+.color-text-op {
+  opacity: 0.8;
+}
+
+.color-bg {
+  background-color: lightblue;
+}
