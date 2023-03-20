@@ -23,20 +23,19 @@ footer h3 + div {
   align-items: center;
 }
 
-
 @media (max-width: 768px) {
   .color-bg {
-  height: fit-content;
+    height: fit-content;
   }
 
-  footer > div{
+  footer > div {
     flex-direction: column;
   }
-  footer figure img{
+  footer figure img {
     margin-top: 60px;
   }
   .ft-info {
-   text-align: center;
-   margin-top: 60px;
+    text-align: center;
+    margin-top: 60px;
   }
 }

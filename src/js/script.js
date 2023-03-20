@@ -24,6 +24,12 @@ const episodes = [
     description:
       " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
   },
+  {
+    img: "./src/img/episodes/episode2.svg",
+    title: "episode 5",
+    description:
+      " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
+  },
 ];
 
 // 1 acessar a lista de episodios através do DOM

@@ -4,7 +4,7 @@
   --font-3: "Iceland", cursive;
 }
 
-/* ACTOR */
+/* ROBOTO */
 .font-1-l {
   font: 400 1.625rem/1.23 var(--font-1);
 }
@@ -45,14 +45,16 @@
 .font-3-xs {
   font: 400 1.25rem/0.97 var(--font-3);
 }
-
-@media (max-width: 800px) {
-  .font-1-l {
-    font-size: 1.5rem;
-  }
+@media (max-width: 1279px) {
   .font-1-m {
     font-size: 1.1rem;
   }
+}
+@media (max-width: 768px) {
+  .font-1-l {
+    font-size: 1.5rem;
+  }
+
   .font-3-xxl {
     font-size: 5rem;
   }
