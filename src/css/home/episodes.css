@@ -5,7 +5,6 @@
   background-size: cover;
   position: top right;
 }
-
 .ep-text {
   gap: 28px;
   max-height: 80%;
@@ -21,20 +20,26 @@
   overflow-x: auto;
   margin: auto;
   margin-bottom: 60px;
-  gap: 20px;
+  gap: 10px;
 }
 .ep-card {
   display: flex;
   flex-direction: column;
   height: max-content;
   min-height: 320px;
-  align-items: center;
+  align-items: start;
+}
+.ep-card:first-child {
+  margin-left: 0;
+}
+.ep-card:last-child {
+  margin-right: 0;
 }
 .ep-card img {
   width: 250px;
   height: 120px;
   border-radius: 12px;
-  margin: 20px;
+  margin-left: 5px;
 }
 .ep-card > div {
   width: 100%;
@@ -43,14 +48,14 @@
 .ep-card h4 {
   height: 30px;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 5px;
   margin-top: 5px;
 }
 .ep-card p {
   height: 88px;
   max-width: 40ch;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 @media (max-width: 1050px) {
   .episodes {
@@ -76,7 +81,7 @@
     display: flex;
     max-height: 600px;
     min-height: 370px;
-    width: 90%;
+    width: 95%;
     justify-content: space-between;
   }
 

@@ -80,6 +80,7 @@ main > section h3 {
 
 .inside {
   max-width: 100%;
+  min-width: 300px;
   margin-right: auto;
   width: 840px;
   gap: 20px;
