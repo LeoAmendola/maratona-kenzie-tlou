@@ -30,6 +30,12 @@ const episodes = [
     description:
       " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
   },
+  {
+    img: "./src/img/episodes/episode3.svg",
+    title: "Long, Long Time",
+    description:
+      " Joel and Ellie begin the hike to meet with Bill and Frank. Ellie sees evidence of the government's execution of innocents during the early days of the pandemic.",
+  },
 ];
 
 // 1 acessar a lista de episodios através do DOM
