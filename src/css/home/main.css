@@ -1,9 +1,9 @@
 .home {
   height: 900px;
-  background-image: url("../../img/bg-tlou.jpeg");
+  background-image: url("../../img/tlou.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: top left;
+  position: top right;
 }
 
 main {
@@ -35,6 +35,7 @@ main h1 > span::after {
 main > p {
   text-align: left;
   max-width: 30ch;
+  text-shadow: 2px 2px black
 }
 
 .btn-main {
