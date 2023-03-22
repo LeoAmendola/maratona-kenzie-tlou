@@ -9,7 +9,7 @@
   gap: 28px;
   max-height: 80%;
   height: fit-content;
-  margin-top: 200px;
+  margin-top: 80px;
   margin-bottom: 40px;
   text-align: left;
 }
@@ -54,10 +54,6 @@
   margin-left: 5px;
 }
 @media (max-width: 1050px) {
-  .ep-text {
-    margin-top: 120px;
-    position: relative;
-  }
   .ep-list {
     display: flex;
     max-height: 600px;
@@ -75,10 +71,6 @@
   }
 }
 @media (max-width: 768px) {
-  .ep-text {
-    margin-top: 160px;
-  }
-
   .ep-list {
     margin-top: 30px;
     gap: 15px;

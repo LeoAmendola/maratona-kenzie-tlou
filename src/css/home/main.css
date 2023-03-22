@@ -1,5 +1,5 @@
 .home {
-  height: 900px;
+  height: fit-content;
   background-image: url("../../img/tlou.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
 .home::after {
   content: "";
   min-height: 100%;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
