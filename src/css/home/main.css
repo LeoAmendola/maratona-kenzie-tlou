@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: top right;
-  z-index: -1;
+  z-index: 1;
   position: relative;
 }
 .home::after {
@@ -58,7 +58,7 @@ main > p {
   display: flex;
   gap: 27px;
 }
-div > button {
+.btn-main button {
   padding: 0 30px;
   height: 46px;
   align-items: center;
