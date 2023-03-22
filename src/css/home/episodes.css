@@ -1,6 +1,12 @@
 .episodes {
   height: fit-content;
-  background: linear-gradient(180deg, #000000 20%, #950202dd 50%, #000000 70%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(74, 9, 9, 1) 50%,
+    rgba(0, 0, 0, 1) 70%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   position: top right;
@@ -15,7 +21,7 @@
 }
 .ep-list {
   display: flex;
-  padding: 0 20px 20px 20px;
+  padding: 0 40px 20px 40px;
   max-width: 1260px;
   width: 100%;
   gap: 40px;
