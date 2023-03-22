@@ -16,7 +16,7 @@
 .ep-list {
   display: flex;
   padding: 0 20px 20px 20px;
-  max-width: 1100px;
+  max-width: 1260px;
   width: 100%;
   gap: 40px;
   margin-left: auto;
@@ -54,7 +54,6 @@
   margin-left: 5px;
 }
 @media (max-width: 1050px) {
-
   .ep-text {
     margin-top: 120px;
     position: relative;
@@ -85,5 +84,3 @@
     gap: 15px;
   }
 }
-
-

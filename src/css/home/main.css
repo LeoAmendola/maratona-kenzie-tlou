@@ -4,6 +4,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: top right;
+  z-index: -1;
+  position: relative;
+}
+.home::after {
+  content: "";
+  min-height: 100%;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 0.05926120448179273) 50%,
+    rgba(0, 0, 0, 1) 85%
+  );
+  z-index: -1;
 }
 
 main {
@@ -35,7 +52,6 @@ main h1 > span::after {
 main > p {
   text-align: left;
   max-width: 30ch;
-  text-shadow: 2px 2px black
 }
 
 .btn-main {
@@ -61,12 +77,10 @@ div > button {
 
 .activated:hover {
   border: 1px solid var(--color-grey-2);
-  font-weight: 600;
 }
 
 .inactive:hover {
   border: 1px solid var(--color-primary);
-  font-weight: 600;
 }
 
 main > section {
@@ -83,10 +97,8 @@ main > section h3 {
   max-width: 100%;
   min-width: 300px;
   margin-right: auto;
-  /* margin-left: auto; */
   width: 840px;
   gap: 20px;
-  /* overflow: auto; */
 }
 
 .inside > li {
